@@ -4,10 +4,10 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>MarkProBold</string>
-		<string>MarkProHeavy</string>
-		<string>MarkProMedium</string>
-		<string>MarkProRegular</string>
+		<string>MarkProBold.ttf</string>
+		<string>MarkProHeavy.ttf</string>
+		<string>MarkProMedium.ttf</string>
+		<string>MarkProRegular.ttf</string>
 	</array>
 </dict>
 </plist>

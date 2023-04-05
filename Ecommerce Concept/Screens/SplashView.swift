@@ -13,12 +13,6 @@ struct SplashView: View {
     @State private var size = 0.8
     @State private var opacity = 0.5
 
-    init() {
-        for familyName in UIFont.familyNames {
-            print(familyName)
-        }
-    }
-
     var body: some View {
         if isActive {
             EcommerceTabView()
@@ -26,7 +20,6 @@ struct SplashView: View {
             ZStack {
                 Color("backgroundColor")
                     .edgesIgnoringSafeArea(.all)
-
                 VStack {
                     Ellipse()
                         .frame(width: 132, height: 132)
@@ -40,7 +33,6 @@ struct SplashView: View {
                         self.opacity = 1.0
                     }
                 }
-
                 VStack {
                     Text("Ecommerce \nConcept")
                         .font(.custom(CustomFonts.markProHeavy.rawValue, size: 30))
@@ -86,4 +78,3 @@ extension View {
         self.modifier(EaseInAnimationStyle(size: 0.8, opacity: 0.5))
     }
 }
-

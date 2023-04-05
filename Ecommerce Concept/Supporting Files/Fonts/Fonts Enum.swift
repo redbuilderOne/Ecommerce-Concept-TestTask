@@ -8,8 +8,8 @@
 import Foundation
 
 enum CustomFonts: String {
-    case markProBold = "MarkProBold"
-    case markProHeavy = "MarkProHeavy"
-    case markProMedium = "MarkProMedium"
-    case markProRegular = "MarkProRegular"
+    case markProBold = "MarkPro-Bold"
+    case markProHeavy = "MarkPro-Heavy"
+    case markProMedium = "MarkPro-Medium"
+    case markProRegular = "MarkPro-Regular"
 }

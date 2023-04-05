@@ -17,7 +17,6 @@
 		FF3BA28529DDB1F300FF43EE /* MarkProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3BA28129DDB1F300FF43EE /* MarkProBold.ttf */; };
 		FF3BA28629DDB1F300FF43EE /* MarkProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3BA28229DDB1F300FF43EE /* MarkProMedium.ttf */; };
 		FF3BA28A29DDB2FF00FF43EE /* Fonts Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BA28929DDB2FF00FF43EE /* Fonts Enum.swift */; };
-		FF3BA28C29DDB4BA00FF43EE /* Ecommerce-Concept-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF3BA28B29DDB4BA00FF43EE /* Ecommerce-Concept-Info.plist */; };
 		FF3BA28E29DDB5B000FF43EE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BA28D29DDB5B000FF43EE /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 		FF3BA28129DDB1F300FF43EE /* MarkProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkProBold.ttf; sourceTree = "<group>"; };
 		FF3BA28229DDB1F300FF43EE /* MarkProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkProMedium.ttf; sourceTree = "<group>"; };
 		FF3BA28929DDB2FF00FF43EE /* Fonts Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts Enum.swift"; sourceTree = "<group>"; };
-		FF3BA28B29DDB4BA00FF43EE /* Ecommerce-Concept-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ecommerce-Concept-Info.plist"; sourceTree = "<group>"; };
 		FF3BA28D29DDB5B000FF43EE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +65,6 @@
 		FF3BA26829DDABD700FF43EE /* Ecommerce Concept */ = {
 			isa = PBXGroup;
 			children = (
-				FF3BA28B29DDB4BA00FF43EE /* Ecommerce-Concept-Info.plist */,
 				FF3BA26929DDABD700FF43EE /* Ecommerce_ConceptApp.swift */,
 				FF3BA27929DDAF2000FF43EE /* Screens */,
 				FF3BA26D29DDABD800FF43EE /* Assets.xcassets */,
@@ -211,7 +208,6 @@
 				FF3BA28329DDB1F300FF43EE /* MarkProRegular.ttf in Resources */,
 				FF3BA26E29DDABD800FF43EE /* Assets.xcassets in Resources */,
 				FF3BA28529DDB1F300FF43EE /* MarkProBold.ttf in Resources */,
-				FF3BA28C29DDB4BA00FF43EE /* Ecommerce-Concept-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
