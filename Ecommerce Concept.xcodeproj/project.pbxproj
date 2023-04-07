@@ -18,6 +18,8 @@
 		FF3BA28629DDB1F300FF43EE /* MarkProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3BA28229DDB1F300FF43EE /* MarkProMedium.ttf */; };
 		FF3BA28A29DDB2FF00FF43EE /* Fonts Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BA28929DDB2FF00FF43EE /* Fonts Enum.swift */; };
 		FF3BA28E29DDB5B000FF43EE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BA28D29DDB5B000FF43EE /* SplashView.swift */; };
+		FFA797A729DDCEAC00A60BE3 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797A629DDCEAC00A60BE3 /* CustomTabBar.swift */; };
+		FFA797A929E0A4AB00A60BE3 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797A829E0A4AB00A60BE3 /* TabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		FF3BA28229DDB1F300FF43EE /* MarkProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkProMedium.ttf; sourceTree = "<group>"; };
 		FF3BA28929DDB2FF00FF43EE /* Fonts Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts Enum.swift"; sourceTree = "<group>"; };
 		FF3BA28D29DDB5B000FF43EE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		FFA797A629DDCEAC00A60BE3 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		FFA797A829E0A4AB00A60BE3 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 			children = (
 				FF3BA28D29DDB5B000FF43EE /* SplashView.swift */,
 				FF3BA27729DDAE8B00FF43EE /* EcommerceTabView.swift */,
+				FFA797A529DDCE9A00A60BE3 /* CustomTabBar */,
 				FF3BA27A29DDAF3300FF43EE /* HomeStoreView */,
 				FF3BA27B29DDAF4300FF43EE /* CartView */,
 				FF3BA27C29DDAF5100FF43EE /* FavoritesView */,
@@ -142,6 +147,15 @@
 				FF3BA27E29DDB1C700FF43EE /* Fonts */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFA797A529DDCE9A00A60BE3 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FFA797A629DDCEAC00A60BE3 /* CustomTabBar.swift */,
+				FFA797A829E0A4AB00A60BE3 /* TabBarButton.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +236,8 @@
 				FF3BA28A29DDB2FF00FF43EE /* Fonts Enum.swift in Sources */,
 				FF3BA28E29DDB5B000FF43EE /* SplashView.swift in Sources */,
 				FF3BA27829DDAE8B00FF43EE /* EcommerceTabView.swift in Sources */,
+				FFA797A929E0A4AB00A60BE3 /* TabBarButton.swift in Sources */,
+				FFA797A729DDCEAC00A60BE3 /* CustomTabBar.swift in Sources */,
 				FF3BA26A29DDABD700FF43EE /* Ecommerce_ConceptApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,12 +9,32 @@ import SwiftUI
 
 struct EcommerceTabView: View {
 
+    @State var selectedTabState: TabState = .explorer
+
+    init() {
+        UITabBar.appearance().isHidden = true
+    }
+
     //    @EnvironmentObject var order: Order
 
     var body: some View {
-        TabView {
-             HomeStoreView()
-                        .tabItem { Label("Home", systemImage: "house") }
+        ZStack {
+            VStack {
+                Spacer()
+                CustomTabBar(selectedTab: $selectedTabState)
+            }
+        }
+
+//
+//        TabView {
+//             HomeStoreView()
+//                        .tabItem { Label("Home", systemImage: "circlebadge") }
+//                        .toolbarBackground(
+//                            Color("backgroundColor"),
+//                            for: .tabBar)
+//                        .cornerRadius(30)
+
+
 
             // CartView
             //            .tabItem { Label("Home", systemImage: "house") }
@@ -26,7 +46,7 @@ struct EcommerceTabView: View {
             // AccountView
             //            .tabItem { Label("Home", systemImage: "house") }
 
-        }
+//        }
     }
 }
 
