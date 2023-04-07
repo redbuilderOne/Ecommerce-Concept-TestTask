@@ -15,38 +15,23 @@ struct EcommerceTabView: View {
         UITabBar.appearance().isHidden = true
     }
 
-    //    @EnvironmentObject var order: Order
-
     var body: some View {
         ZStack {
+            switch selectedTabState {
+            case .explorer:
+                HomeStoreView()
+            case .cart:
+                CartView()
+            case .favorites:
+                FavoritesView()
+            case .account:
+                AccountView()
+            }
             VStack {
                 Spacer()
                 CustomTabBar(selectedTab: $selectedTabState)
             }
         }
-
-//
-//        TabView {
-//             HomeStoreView()
-//                        .tabItem { Label("Home", systemImage: "circlebadge") }
-//                        .toolbarBackground(
-//                            Color("backgroundColor"),
-//                            for: .tabBar)
-//                        .cornerRadius(30)
-
-
-
-            // CartView
-            //            .tabItem { Label("Home", systemImage: "house") }
-            //            .badge(order.items.count)
-
-            // FavoritesView
-            //            .tabItem { Label("Home", systemImage: "house") }
-
-            // AccountView
-            //            .tabItem { Label("Home", systemImage: "house") }
-
-//        }
     }
 }
 

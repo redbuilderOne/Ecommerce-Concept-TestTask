@@ -20,6 +20,10 @@
 		FF3BA28E29DDB5B000FF43EE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BA28D29DDB5B000FF43EE /* SplashView.swift */; };
 		FFA797A729DDCEAC00A60BE3 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797A629DDCEAC00A60BE3 /* CustomTabBar.swift */; };
 		FFA797A929E0A4AB00A60BE3 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797A829E0A4AB00A60BE3 /* TabBarButton.swift */; };
+		FFA797AC29E0A66900A60BE3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797AB29E0A66900A60BE3 /* Order.swift */; };
+		FFA797AE29E0A93000A60BE3 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797AD29E0A93000A60BE3 /* AccountView.swift */; };
+		FFA797B029E0A94500A60BE3 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797AF29E0A94500A60BE3 /* FavoritesView.swift */; };
+		FFA797B229E0A95100A60BE3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797B129E0A95100A60BE3 /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		FF3BA28D29DDB5B000FF43EE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		FFA797A629DDCEAC00A60BE3 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		FFA797A829E0A4AB00A60BE3 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		FFA797AB29E0A66900A60BE3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FFA797AD29E0A93000A60BE3 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FFA797AF29E0A94500A60BE3 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		FFA797B129E0A95100A60BE3 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,7 @@
 		FF3BA26829DDABD700FF43EE /* Ecommerce Concept */ = {
 			isa = PBXGroup;
 			children = (
+				FFA797AA29E0A66000A60BE3 /* Model */,
 				FF3BA26929DDABD700FF43EE /* Ecommerce_ConceptApp.swift */,
 				FF3BA27929DDAF2000FF43EE /* Screens */,
 				FF3BA26D29DDABD800FF43EE /* Assets.xcassets */,
@@ -111,6 +120,7 @@
 		FF3BA27B29DDAF4300FF43EE /* CartView */ = {
 			isa = PBXGroup;
 			children = (
+				FFA797B129E0A95100A60BE3 /* CartView.swift */,
 			);
 			path = CartView;
 			sourceTree = "<group>";
@@ -118,6 +128,7 @@
 		FF3BA27C29DDAF5100FF43EE /* FavoritesView */ = {
 			isa = PBXGroup;
 			children = (
+				FFA797AF29E0A94500A60BE3 /* FavoritesView.swift */,
 			);
 			path = FavoritesView;
 			sourceTree = "<group>";
@@ -125,6 +136,7 @@
 		FF3BA27D29DDAF6000FF43EE /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				FFA797AD29E0A93000A60BE3 /* AccountView.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -156,6 +168,14 @@
 				FFA797A829E0A4AB00A60BE3 /* TabBarButton.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		FFA797AA29E0A66000A60BE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFA797AB29E0A66900A60BE3 /* Order.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +252,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA797B029E0A94500A60BE3 /* FavoritesView.swift in Sources */,
 				FF3BA26C29DDABD700FF43EE /* HomeStoreView.swift in Sources */,
 				FF3BA28A29DDB2FF00FF43EE /* Fonts Enum.swift in Sources */,
+				FFA797AC29E0A66900A60BE3 /* Order.swift in Sources */,
 				FF3BA28E29DDB5B000FF43EE /* SplashView.swift in Sources */,
 				FF3BA27829DDAE8B00FF43EE /* EcommerceTabView.swift in Sources */,
+				FFA797B229E0A95100A60BE3 /* CartView.swift in Sources */,
 				FFA797A929E0A4AB00A60BE3 /* TabBarButton.swift in Sources */,
+				FFA797AE29E0A93000A60BE3 /* AccountView.swift in Sources */,
 				FFA797A729DDCEAC00A60BE3 /* CustomTabBar.swift in Sources */,
 				FF3BA26A29DDABD700FF43EE /* Ecommerce_ConceptApp.swift in Sources */,
 			);

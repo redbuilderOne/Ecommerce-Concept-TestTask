@@ -46,7 +46,7 @@ struct HomeStoreView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Home/Explorer View")
                 .font(.custom(CustomFonts.markProBold.rawValue, size: 64))
         }
         .padding()

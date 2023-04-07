@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Ecommerce_ConceptApp: App {
+
+    var order = Order()
+
     var body: some Scene {
         WindowGroup {
-            SplashView()
+            SplashView().environmentObject(order)
         }
     }
 }

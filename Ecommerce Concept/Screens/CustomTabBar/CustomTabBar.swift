@@ -23,6 +23,7 @@ enum TabState: Int {
 
 struct CustomTabBar: View {
 
+    @EnvironmentObject var order: Order
     @Binding var selectedTab: TabState
 
     var body: some View {
@@ -47,6 +48,7 @@ struct CustomTabBar: View {
                     selectedTab = .cart
                 } label: {
                     TabBarButton(isSelected: selectedTab == .cart, imageName: TabBarIcons.cart.rawValue)
+                        .badge(order.items.count)
                 }
                 Spacer()
                 Button {
