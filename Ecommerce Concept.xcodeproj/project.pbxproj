@@ -18,6 +18,7 @@
 		FF3BA28629DDB1F300FF43EE /* MarkProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3BA28229DDB1F300FF43EE /* MarkProMedium.ttf */; };
 		FF3BA28A29DDB2FF00FF43EE /* Fonts Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BA28929DDB2FF00FF43EE /* Fonts Enum.swift */; };
 		FF3BA28E29DDB5B000FF43EE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BA28D29DDB5B000FF43EE /* SplashView.swift */; };
+		FF75DDE329E1A396002F0157 /* Colors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75DDE229E1A396002F0157 /* Colors+Ext.swift */; };
 		FFA797A729DDCEAC00A60BE3 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797A629DDCEAC00A60BE3 /* CustomTabBar.swift */; };
 		FFA797A929E0A4AB00A60BE3 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797A829E0A4AB00A60BE3 /* TabBarButton.swift */; };
 		FFA797AC29E0A66900A60BE3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA797AB29E0A66900A60BE3 /* Order.swift */; };
@@ -39,6 +40,7 @@
 		FF3BA28229DDB1F300FF43EE /* MarkProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkProMedium.ttf; sourceTree = "<group>"; };
 		FF3BA28929DDB2FF00FF43EE /* Fonts Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts Enum.swift"; sourceTree = "<group>"; };
 		FF3BA28D29DDB5B000FF43EE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		FF75DDE229E1A396002F0157 /* Colors+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Ext.swift"; sourceTree = "<group>"; };
 		FFA797A629DDCEAC00A60BE3 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		FFA797A829E0A4AB00A60BE3 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		FFA797AB29E0A66900A60BE3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
@@ -98,8 +100,8 @@
 		FF3BA27929DDAF2000FF43EE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				FF3BA28D29DDB5B000FF43EE /* SplashView.swift */,
-				FF3BA27729DDAE8B00FF43EE /* EcommerceTabView.swift */,
+				FF75DDDD29E19212002F0157 /* Splash */,
+				FF75DDDE29E19217002F0157 /* TabView */,
 				FFA797A529DDCE9A00A60BE3 /* CustomTabBar */,
 				FF3BA27A29DDAF3300FF43EE /* HomeStoreView */,
 				FF3BA27B29DDAF4300FF43EE /* CartView */,
@@ -113,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				FF3BA26B29DDABD700FF43EE /* HomeStoreView.swift */,
+				FF75DDE429E1A45D002F0157 /* View */,
+				FF75DDDF29E194A5002F0157 /* Model */,
 			);
 			path = HomeStoreView;
 			sourceTree = "<group>";
@@ -156,9 +160,48 @@
 		FF3BA28729DDB20500FF43EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF75DDE129E1A38D002F0157 /* Colors */,
 				FF3BA27E29DDB1C700FF43EE /* Fonts */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF75DDDD29E19212002F0157 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BA28D29DDB5B000FF43EE /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		FF75DDDE29E19217002F0157 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BA27729DDAE8B00FF43EE /* EcommerceTabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		FF75DDDF29E194A5002F0157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF75DDE129E1A38D002F0157 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				FF75DDE229E1A396002F0157 /* Colors+Ext.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		FF75DDE429E1A45D002F0157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FFA797A529DDCE9A00A60BE3 /* CustomTabBar */ = {
@@ -253,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFA797B029E0A94500A60BE3 /* FavoritesView.swift in Sources */,
+				FF75DDE329E1A396002F0157 /* Colors+Ext.swift in Sources */,
 				FF3BA26C29DDABD700FF43EE /* HomeStoreView.swift in Sources */,
 				FF3BA28A29DDB2FF00FF43EE /* Fonts Enum.swift in Sources */,
 				FFA797AC29E0A66900A60BE3 /* Order.swift in Sources */,

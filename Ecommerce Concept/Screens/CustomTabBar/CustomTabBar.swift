@@ -66,14 +66,8 @@ struct CustomTabBar: View {
             }
         }
         .frame(height: 60)
-        .background(Color("backgroundColor"))
+        .background(Color.backgroundColor)
         .cornerRadius(30)
         .padding()
-    }
-}
-
-struct CustomTabBar_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomTabBar(selectedTab: .constant(.account))
     }
 }

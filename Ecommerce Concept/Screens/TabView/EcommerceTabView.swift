@@ -10,6 +10,7 @@ import SwiftUI
 struct EcommerceTabView: View {
 
     @State var selectedTabState: TabState = .explorer
+    @State var selectedCategory: CategorySelectionState = .phones
 
     init() {
         UITabBar.appearance().isHidden = true
@@ -19,7 +20,7 @@ struct EcommerceTabView: View {
         ZStack {
             switch selectedTabState {
             case .explorer:
-                HomeStoreView()
+                HomeStoreView(selectedCategory: $selectedCategory)
             case .cart:
                 CartView()
             case .favorites:

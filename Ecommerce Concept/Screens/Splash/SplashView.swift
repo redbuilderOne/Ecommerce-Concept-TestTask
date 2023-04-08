@@ -18,7 +18,7 @@ struct SplashView: View {
             EcommerceTabView()
         } else {
             ZStack {
-                Color("backgroundColor")
+                Color.backgroundColor
                     .edgesIgnoringSafeArea(.all)
                 VStack {
                     Ellipse()
